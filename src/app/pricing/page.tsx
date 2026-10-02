@@ -100,27 +100,27 @@ export default function PricingPage() {
         </div>
 
         {/* Pro Plan */}
-        <div className="flex flex-col justify-between p-6 sm:p-8 bg-slate-900 dark:bg-slate-900 text-white rounded-2xl border border-blue-500/40 shadow-xs relative">
+        <div className="flex flex-col justify-between p-6 sm:p-8 bg-white dark:bg-slate-900 rounded-2xl border-2 border-blue-600 dark:border-blue-500 shadow-sm relative">
           <div>
             <div className="flex items-center justify-between mb-3">
-              <h3 className="text-lg font-bold text-white">Pro</h3>
-              <span className="px-2.5 py-0.5 text-xs font-medium rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30">
+              <h3 className="text-lg font-bold text-slate-900 dark:text-white">Pro</h3>
+              <span className="px-2.5 py-0.5 text-xs font-semibold rounded-full bg-blue-50 dark:bg-blue-500/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-500/30">
                 Recommended
               </span>
             </div>
-            <p className="text-xs sm:text-sm text-slate-400 mb-6">
+            <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mb-6">
               For power users and teams processing large files and batches.
             </p>
 
             <div className="mb-6">
-              <span className="text-3xl sm:text-4xl font-extrabold text-white">$6</span>
-              <span className="text-slate-400 text-xs ml-1.5">/ month, billed annually</span>
+              <span className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">$6</span>
+              <span className="text-slate-500 dark:text-slate-400 text-xs ml-1.5">/ month, billed annually</span>
             </div>
 
-            <ul className="space-y-2.5 pt-5 border-t border-slate-800 text-xs sm:text-sm">
+            <ul className="space-y-2.5 pt-5 border-t border-slate-100 dark:border-slate-800 text-xs sm:text-sm">
               {proFeatures.map((feat) => (
-                <li key={feat} className="flex items-start gap-2 text-slate-200">
-                  <Check className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
+                <li key={feat} className="flex items-start gap-2 text-slate-700 dark:text-slate-300">
+                  <Check className="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5" />
                   <span>{feat}</span>
                 </li>
               ))}
@@ -130,7 +130,7 @@ export default function PricingPage() {
           <div className="pt-6">
             <Link
               href="/tools"
-              className="w-full inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white text-sm font-semibold transition-colors"
+              className="w-full inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white text-sm font-semibold transition-colors shadow-2xs shadow-blue-500/20"
             >
               Get Started with Pro
               <ArrowRight className="w-4 h-4" />

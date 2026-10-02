@@ -73,13 +73,13 @@ export default function AboutPage() {
       </div>
 
       {/* Contact Section */}
-      <div id="contact" className="p-8 bg-slate-900 text-white rounded-2xl border border-slate-800 space-y-4 text-center">
+      <div id="contact" className="p-8 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 text-center">
         <div className="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center mx-auto shadow-2xs shadow-blue-500/20">
           <Mail className="w-5 h-5" />
         </div>
         <div className="space-y-1.5 max-w-md mx-auto">
-          <h2 className="text-xl font-bold text-white">Have feedback or a tool suggestion?</h2>
-          <p className="text-xs sm:text-sm text-slate-400">
+          <h2 className="text-xl font-bold text-slate-900 dark:text-white">Have feedback or a tool suggestion?</h2>
+          <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
             We are actively developing new tools and would love to hear what utilities would make your day easier.
           </p>
         </div>
