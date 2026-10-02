@@ -1,0 +1,58 @@
+import { ToolCategory } from '@/types';
+
+export const CATEGORIES: ToolCategory[] = [
+  {
+    id: 'pdf',
+    name: 'PDF Tools',
+    slug: 'pdf',
+    description: 'Compress, merge, split, and convert PDF files with high fidelity and privacy.',
+    iconName: 'FileText',
+    toolCount: 14,
+    featured: true,
+  },
+  {
+    id: 'image',
+    name: 'Image Tools',
+    slug: 'image',
+    description: 'Resize, optimize, crop, and convert image formats without losing quality.',
+    iconName: 'Image',
+    toolCount: 18,
+    featured: true,
+  },
+  {
+    id: 'document',
+    name: 'Document Tools',
+    slug: 'document',
+    description: 'Transform Word, Excel, PowerPoint, and Markdown files with ease.',
+    iconName: 'Files',
+    toolCount: 10,
+    featured: true,
+  },
+  {
+    id: 'qr',
+    name: 'QR & Barcode',
+    slug: 'qr',
+    description: 'Generate customizable, high-resolution QR codes and barcodes for any data.',
+    iconName: 'QrCode',
+    toolCount: 8,
+    featured: true,
+  },
+  {
+    id: 'developer',
+    name: 'Developer Tools',
+    slug: 'developer',
+    description: 'Format JSON, encode Base64, generate hashes, inspect regex, and debug data.',
+    iconName: 'Code',
+    toolCount: 16,
+    featured: true,
+  },
+  {
+    id: 'utilities',
+    name: 'Utilities',
+    slug: 'utilities',
+    description: 'Essential everyday calculators, text formatters, unit converters, and tools.',
+    iconName: 'Wrench',
+    toolCount: 12,
+    featured: true,
+  },
+];
